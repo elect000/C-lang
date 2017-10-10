@@ -41,12 +41,14 @@ $ ./ex1_1 < ex1_data2.txt
 0.401469
 -18.421143
 -13.568729
+$
 
 課題2を実行した結果を以下に示す。
 $ ./ex1_2
 Input string(1) college-of-information-science
 Input string(2) computer-
 coee-o-ormto-cece
+$
 
 課題3を実行した結果を以下に示す。
 $ ./ex1_3
@@ -55,3 +57,4 @@ Input number 12345
 $ ./ex1_3
 Input number 10101110
 01110101
+$
