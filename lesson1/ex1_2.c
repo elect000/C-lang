@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 int main(void)
 {
@@ -29,6 +28,7 @@ int main(void)
     while (str2[i] != '\0') {
       if (str2[i] == str1[j]) {
         printf("%c", str2[i]);
+        break;
       }
       ++i;
     }
