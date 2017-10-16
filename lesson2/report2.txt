@@ -1,0 +1,67 @@
+学籍番号:201611350
+氏名:江畑 拓哉
+演習番号:2
+
+課題1を実行した結果を以下に示す。
+
+$ gcc -o ex2_1 ex2_1.c
+$ cat hoge.txt
+SomeThing
+$ ./ex2_1 hoge.txt
+10 elements
+$ wc hoge.txt
+ 1  1 10 hoge.txt
+$ 
+
+課題2を実行した結果を以下に示す。
+
+$ gcc -o ex2_2 ex2_2.c
+$ cat hoge.txt
+SomeThing01
+$ ./ex2_2 hoge.txt hogehoge.txt
+$ cat hogehoge.txt
+SOMETHING01
+$
+
+課題3を実行した結果を以下に示す。
+
+$ gcc -o ex2_3 ex2_3.c
+$ ./ex2_3 ex2_data.txt
+Fuwa 2
+Nakamura 3
+Hayami 5
+Mase 6
+Yato 8
+Akabane 9
+Chikamatsu 10
+Okano 11
+Horibe 14
+Kanzaki 15
+Sugaya 16
+Takebayashi 17
+Isogai 22
+Kurahashi 25
+Hazama 28
+Hara 32
+Kimura 35
+Yoshida 48
+Okajima 49
+Yokokawa 50
+Onodera 53
+Kataoka 54
+Senba 59
+Muramatsu 60
+Sugino 61
+Katsuta 67
+Yada 68
+Ushioda 78
+Otaka 80
+Maebara 84
+Tominomori 87
+Oishi 88
+Mimura 92
+Terasaka 94
+Okuda 95
+Kayano 97
+Kaiga 99
+$ 
