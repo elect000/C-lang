@@ -1,0 +1,102 @@
+学籍番号:201611350
+氏名:江畑 拓哉
+演習番号:3
+
+課題1を実行した結果を以下に示す。
+$ gcc ex4_1.c -o ex4_1
+$ ./ex4_1 ex4_words.txt
+...
+transformation 1
+under 1
+unique 1
+university 9
+unrest 1
+up 1
+values 1
+voice 1
+was 5
+we 4
+welfare 1
+well 2
+which 1
+who 3
+whole 1
+wide 1
+will 2
+with 3
+world 1
+would 1
+$
+
+課題2を実行した結果を以下に示す。
+$
+$ ./ex4_2 ex4_words.txt
+the 33
+of 29
+to 23
+and 21
+as 14
+a 12
+in 12
+Tsukuba 9
+University 9
+university 9
+society 7
+The 6
+an 6
+education 6
+is 6
+its 6
+that 6
+be 5
+global 5
+have 5
+...
+$
+
+課題3を実行した結果を以下に示す。
+$ gcc ex4_3.c -o ex4_3
+$ ./ex4_3 ex4_numbers.txt
+...
+Input number 1
+1: Found
+Input number 2
+2: Found
+Input number 3
+3: Found
+Input number 4
+4: Not found
+Input number 5
+5: Not found
+Input number 6
+6: Not found
+Input number 7
+7: Not found
+Input number 8
+8: Found
+Input number 9
+9: Found
+Input number 10
+10: Not found
+Input number 11
+11: Found
+Input number 12
+12: Not found
+Input number 13
+13: Not found
+Input number 0
+$
+
+課題4を実行した結果を以下に示す。
+$ gcc ex4_4.c -o ex4_4
+$ ./ex4_4 ex4_numbers.txt
+...
+Sum: 7803
+Input number 1
+1: Found
+Input number 2
+2: Found
+Input number 3
+3: Found
+Input number 0
+$ 
