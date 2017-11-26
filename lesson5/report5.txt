@@ -1,0 +1,83 @@
+学籍番号:201611350
+氏名:江畑 拓哉
+演習番号:5
+
+課題1を実行した結果を以下に示す。
+λ ./ex5_1 ex5_data.txt i
+/ex5_1: "i" is found in ex5_data.txt
+
+λ ./ex5_1 ex5_data.txt hope
+/ex5_1: "hope" is found in ex5_data.txt
+
+λ ./ex5_1 ex5_data.txt people
+/ex5_1: "people" is not found in ex5_data.txt
+
+λ ./ex5_1 ex5_data.txt enjoy
+/ex5_1: "enjoy" is not found in ex5_data.txt
+
+λ ./ex5_1 ex5_data.txt their
+/ex5_1: "their" is not found in ex5_data.txt
+
+λ ./ex5_1 ex5_data.txt new
+/ex5_1: "new" is found in ex5_data.txt
+
+λ ./ex5_1 ex5_data.txt year
+/ex5_1: "year" is found in ex5_data.txt
+
+λ ./ex5_1 ex5_data.txt break
+/ex5_1: "break" is not found in ex5_data.txt
+
+λ ./ex5_1 ex5_data.txt thanks
+/ex5_1: "thanks" is not found in ex5_data.txt
+
+λ ./ex5_1 ex5_data.txt to
+/ex5_1: "to" is found in ex5_data.txt
+
+λ ./ex5_1 ex5_data.txt the
+/ex5_1: "the" is found in ex5_data.txt
+
+λ ./ex5_1 ex5_data.txt consecutive
+/ex5_1: "consecutive" is not found in ex5_data.txt
+
+λ ./ex5_1 ex5_data.txt holiday
+/ex5_1: "holiday" is not found in ex5_data.txt
+
+課題2を実行した結果を以下に示す。
+λ ./ex5_2 ex5_data.txt i
+/ex5_2: "i" is found in ex5_data.txt
+
+λ ./ex5_2 ex5_data.txt hope
+/ex5_2: "hope" is found in ex5_data.txt
+
+λ ./ex5_2 ex5_data.txt people
+/ex5_2: "people" is not found in ex5_data.txt
+
+λ ./ex5_2 ex5_data.txt enjoy
+/ex5_2: "enjoy" is not found in ex5_data.txt
+
+λ ./ex5_2 ex5_data.txt their
+/ex5_2: "their" is not found in ex5_data.txt
+
+λ ./ex5_2 ex5_data.txt new
+/ex5_2: "new" is found in ex5_data.txt
+
+λ ./ex5_2 ex5_data.txt year
+/ex5_2: "year" is found in ex5_data.txt
+
+λ ./ex5_2 ex5_data.txt break
+/ex5_2: "break" is not found in ex5_data.txt
+
+λ ./ex5_2 ex5_data.txt thanks
+/ex5_2: "thanks" is not found in ex5_data.txt
+
+λ ./ex5_2 ex5_data.txt to
+/ex5_2: "to" is found in ex5_data.txt
+
+λ ./ex5_2 ex5_data.txt the
+/ex5_2: "the" is found in ex5_data.txt
+
+λ ./ex5_2 ex5_data.txt consecutive
+/ex5_2: "consecutive" is not found in ex5_data.txt
+
+λ ./ex5_2 ex5_data.txt holiday
+/ex5_2: "holiday" is not found in ex5_data.txt
