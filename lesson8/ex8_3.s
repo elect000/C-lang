@@ -1,29 +1,53 @@
   .text
-	.global main
+  .global main
+L0:   //  x == 0 の処理
+  mov $0, %eax
+  leave
+  ret
+
+L1:   //  x == 1 の処理
+  mov $1, %eax
+  leave
+  ret
+
+fib:
+  // 旧 ebp 待避
+  push %ebp
+  // 新 ebp セット
+  mov %esp, %ebp
+
+  // x == 1
+  cmp $1, %eax
+  je L1
+  // x == 0
+  cmp $0, %eax
+  je L0
+
+  // x の待避
+  push %eax
+  //	fib (x - 1)
+  sub $1, %eax
+  call fib
+  // 計算結果を %ecx に
+  mov %eax, %ecx
+
+  // x の復帰
+  pop %eax
+
+  //	%ecx = fib (x - 1) を待避
+  push %ecx
+  //	fib (x - 2)
+  sub $2, %eax
+  call fib
+  // %ecx の復帰
+  pop %ecx
+
+  add %ecx, %eax
+
+  leave
+  ret
 
 main:
-  mov $20, %edx
-	mov $0, %eax
-  mov $0, %ebx
-  mov $0, %ecx
-
-  cmp $0, %edx
-  je  L2
-
-  add $1, %ecx
-  mov $1, %eax
-  cmp $1, %edx
-  je L2
-  jmp L1
-
-L1:
-  push %eax
-  add %ebx, %eax
-  pop %ebx
-  add $1, %ecx
-  cmp %edx, %ecx
-  je L2
-  jmp L1
-
-L2:
+  mov $20, %eax
+  call fib
   call stop
