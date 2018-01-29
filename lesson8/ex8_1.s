@@ -11,9 +11,10 @@ main:
   mov $0, %eax
   mov $0, %esi
 
-  mov x(,%esi,4), %edx
+  add x(,%esi,4), %edx
   add y(,%esi,4), %edx
   jc  L0
+  jmp L00
 
 L00:
   add $1, %esi
@@ -24,14 +25,14 @@ L00:
 
 L10:
   add $1, %esi
-  mov x(,%esi,4), %ebx
+  add x(,%esi,4), %ebx
   add y(,%esi,4), %ebx
   jc  L2
   jmp L20
 
 L20:
   add $1, %esi
-  mov x(,%esi,4), %eax
+  add x(,%esi,4), %eax
   add y(,%esi,4), %eax
   call stop
 

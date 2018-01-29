@@ -1,13 +1,13 @@
 学籍番号：201611350
 氏名：江畑　拓哉
-演習番号：９
+演習番号：8
 
 課題１を実行した結果を以下に示す
 $ gcc -m32 ex8_1.s libkikaigo.a
 $ ./a.out
-stop at pc=0x565c5636 ...
-eax=0x19532696, ebx=0x6bfd1f06, ecx=0x102c4510, edx=0x87a3af78
-esi=0x00000003, edi=0x00000000, ebp=0x00000000, esp=0xff9b870c
+stop at pc=0x56590638 ...
+eax=0x19532697, ebx=0x6bfd1f07, ecx=0x102c4510, edx=0x87a3af78
+esi=0x00000003, edi=0x00000000, ebp=0x00000000, esp=0xffae4e9c
 
 課題２を実行した結果を以下に示す。
 $ gcc -m32 ex8_2.s libkikaigo.a
