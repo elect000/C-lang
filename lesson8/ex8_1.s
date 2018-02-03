@@ -18,7 +18,7 @@ main:
 
 L00:
   add $1, %esi
-  mov x(,%esi,4), %ecx
+  add x(,%esi,4), %ecx
   add y(,%esi,4), %ecx
   jc  L1
   jmp L10
