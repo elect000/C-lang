@@ -15,7 +15,8 @@ make_allone_array:
   push %eax
   call malloc
 
-  pop %ecx
+  add $4, %esp
+  /*pop %ecx*/
   pop %ecx
   pop %edx
   jmp L
