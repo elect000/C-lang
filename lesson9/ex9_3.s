@@ -7,14 +7,15 @@ make_allone_array:
   mov 8(%ebp), %ecx
   sub $1, %ecx
 
+	push %edx
   push %ecx
-  push %edx
 
   mov 8(%ebp), %eax
   imul $4, %eax
   push %eax
   call malloc
 
+  pop %ecx
   pop %ecx
   pop %edx
   jmp L
